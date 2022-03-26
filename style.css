@@ -1,10 +1,18 @@
 body {
   background-image: url('https://images.unsplash.com/photo-1464347601390-25e2842a37f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1210&q=80');
   text-align: center;
+  background-repeat: no-repeat;
+  background-color: #1d2226;
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+  margin: 0;
 }
 
 h1 {
-  margin-top: 30%;
+  position: relative;
+  top: 10rem;
   color: white;
   font-family: sans-serif;
+  font-size: 80px;
 }
